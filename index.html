@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>triangle</title>
-    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
-    <header>
-        <h1><strong>主页</strong></h1>
-        <h2><strong>下载</strong></h2>
-        <ul>
-            <li><a href="downloads/play.html">娱乐</a></li>
-            <li><a href="downloads/common.html">常用</a></li>
-            <li><a href="downloads/buy.html">购物</a></li>
-        </ul>
-    </header>
-    <footer>
-        <h2><strong>关于</strong></h2>
-        <p>制作：黄**<br>灵感来源：
+    <script src="./JS/script.js"></script>
+    <header class="box">
+        <h1>主页</h1>
+        <p>欢迎来到triangle！这是一个多功能的网站。<br>包含应用下载和编程学习两方面。</p>
+        <a href="../数学/index.html" class="a-button">进入数学知识库</a>
+        <nav>
             <ul>
-                <li>庞*</li>
-                <li>钱**</li>
+                <li><a href="#apps" class="a-button">下载</a></li>
+                <li><a href="#learn" class="a-button">学习</a></li>
+                <li><a href="#about" class="a-button">关于</a></li>
             </ul>
-        </p>
+        </nav>
+    </header>
+    <article class="box" id="apps">
+        <h2>下载</h2>
+        <ul>
+            <li><a href="downloads/play.html" class="a-button">娱乐</a></li>
+            <li><a href="downloads/common.html" class="a-button">常用</a></li>
+            <li><a href="downloads/buy.html" class="a-button">购物</a></li>
+        </ul>
+    </article>
+    <article class="box" id="learn">
+        <h2>学习</h2>
+        <p>这里会放编程语言的学习资料和练习。</p>
+    </article>
+    <footer class="box" id="about">
+        <h2>关于</h2>
+        <p>制作：黄**<br>灵感来源：</p>
+        <ul>
+            <li>庞*</li>
+            <li>钱**</li>
+        </ul>
     </footer>
 </body>
 </html>
